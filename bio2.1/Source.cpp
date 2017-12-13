@@ -3,18 +3,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <vector>
+
 
 using namespace std;
-const vector<char> Alphabet = { 'A', 'C', 'G', 'T' };
-
-int CharIndex(vector<char> alphabet, char c)
-{
-	for (int i = 0; i < alphabet.size(); i++)
-		if (alphabet[i] == c)
-			return i;
-	return -1;
-}
 
 int amount_str(string abc) {
 	int res = 0;
