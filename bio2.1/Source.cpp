@@ -7,16 +7,6 @@
 
 using namespace std;
 
-int amount_str(string abc) {
-	int res = 0;
-	string s;
-	ifstream fin(abc, ios_base::in);
-	if (fin.is_open()) while (getline(fin, s)) res++;
-	else return 0;
-	fin.close();
-	return res;
-}
-
 void get_info(string abc, int* a){
 	int k = 0;
 	string chislo = "";
