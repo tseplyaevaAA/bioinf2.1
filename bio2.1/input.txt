@@ -1,0 +1,9 @@
+3 5 
+ggcgttcaggca
+aagaatcagtca
+caaggagttcgc
+cacgtcaatcac
+caataatattcg
+
+
+
